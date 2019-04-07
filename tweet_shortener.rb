@@ -22,7 +22,7 @@ end
   words = tweet.split(" ")
 
    words.collect do |word|
-    dictionary.collect do |key, value|
+    dict.collect do |key, value|
       if word == key
         word.replace(value)
       end
